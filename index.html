@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>村上由跳 - ポートフォリオ</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header id="global-header">
+        <nav>
+            <div class="site-title">
+                <h2><a href="#profile">profile</a></h2>
+            </div>
+
+            <ul class="nav-links">
+                    <li><a href="#about">自己紹介</a></li>
+                    <li><a href="#skills">スキル</a></li>
+                    <li><a href="#works">成果物</a></li>
+                    <li><a href="#hobby">趣味</a></li>
+                    <li><a href="#goals">目標</a></li>
+                    <li><a href="#contact">連絡先</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section id="profile" class="hero-section">
+        <img src="IMG_3621.JPG" alt="サンプル画像">
+    </section>
+
+    <section id="about" class="content-section">
+        <h2>自己紹介</h2>
+
+        <div class="about-container">
+            <img src="IMG_5050.JPG" alt="顔写真" class="profile-img">
+
+            <div class="about-text">
+                <h3>村上由跳 (murakami yuito)</h3>
+                <p>京都府在住の23歳。AIが社会を変えていく姿を見て興味を持ち、2025年6月ごろからプログラミング学習を開始。
+                    現在はJavaScriptやPHPのスキルを磨いています。</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="content-section">
+            <h2>スキルセット</h2>
+
+            <div class="skills-menu">
+
+            <div>
+            <h3>🌐 フロントエンド</h3>
+            <p>HTML, CSS(Tailwind CSS), JavaScript（Vue.js）</p>
+            </div>
+
+            <div>
+            <h3>💻 バックエンド</h3>
+            <p>PHP(Laravel)</p>
+            </div>
+
+            <div>
+            <h3>🗃️ データベース</h3>
+            <p>MySQL</p>
+            </div>
+
+            <div>
+            <h3>⚙️ 開発環境・ツール</h3>
+            <p>Docker, Git, GitHub, VSCode</p>
+            </div>
+
+            <div>
+            <h3>💿 OS</h3>
+            <p>macOS,Windows</p>
+            </div>
+
+            </div>
+
+    </section>
+
+    <section id="works" class="content-section">
+            <h2>成果物 (Projects)</h2>
+            <article class="work-item">
+                <h3>プロジェクトA：タイトル</h3>
+                <p>【概要】ユーザー認証機能を備えたタスク管理アプリ。</p>
+                <p>【技術】Python/Django, PostgreSQL, AWS S3</p>
+                <a href="https://github.com/eigrjeao" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+    </section>
+
+    <section id="hobby" class="content-section">
+        <h2>趣味</h2>
+
+            <div class="hobby-gallery">
+
+                <div class="hobby-item">
+                    <img src="IMG_5808.jpg" alt="趣味画像">
+                    <h3>旅行</h3>
+                    <p>その土地ならではの文化や観光地を回ることが多いです。<br>
+                        新しい価値観や発見があり心も豊かになります。
+                    </p>
+                </div>
+
+                <div class="hobby-item">
+                    <img src="IMG_0425.jpg" alt="サッカー画像">
+                    <h3>サッカー観戦</h3>
+                    <p>国内外の試合をよくチェックしています。
+                        チームの一体感や選手の努力に刺激を受け、自分も頑張ろうという気持ちになります。</p>
+                </div>
+
+                <div class="hobby-item">
+                    <img src="IMG_2196.jpg" alt="筋トレ画像">
+                    <h3>筋力トレーニング</h3>
+                    <p>体を動かすことが好きで、日課として筋トレを続けています。<br>
+                        コツコツ継続することで、自分の成長を実感できるのが楽しいです。</p>
+                </div>
+
+                <div class="hobby-item">
+                    <img src="IMG_9902.JPG" alt="スノーボード写真">
+                    <h3>スノーボード</h3>
+                    <p>
+                        リフト上から眺める景色が絶景です。<br>
+                        最近ではグランドトリックと言われる飛ぶ、回るといった高度な技にも挑戦しています。</p>
+                </div>
+
+            </div>
+
+    </section>
+
+    <section id="goals" class="content-section">
+        <h2>今後の目標</h2>
+            <p>目標：まずは基礎的なスキルを深めエンジニアとしてのさらなる成長を目指します。<br>
+                それから３年以内に上流のプロジェクトや設計に携わりたいです。</p>
+    </section>
+
+<footer id="contact">
+        <h2>連絡先</h2>
+
+    <form action="#" method="post">
+        <div class="form">
+            <p>NAME</p>
+            <input type="text" name="name" required>
+        </div>
+
+        <div class="form">
+            <p>EMAIL</p>
+            <input type="email" name="email" required>
+        </div>
+
+        <div class="form">
+            <p>MESSAGE</p>
+            <textarea name="message" rows="4" required></textarea>
+        </div>
+
+        <button type="button" class="button">送信</button>
+    </form>
+
+    <div class="footer-bottom">
+    <small>&copy; Yuito Murakami portfolie</small>
+    </div>
+</footer>
+
+</body>
+</html>
