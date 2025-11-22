@@ -29,6 +29,6 @@
 
 ## 📂 ファイル構成
 
-├── index.html
-├── style.css
-└── images/
+-- index.html
+--style.css
+--images/
